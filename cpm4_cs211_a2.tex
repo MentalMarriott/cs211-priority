@@ -140,6 +140,32 @@ The other three schedulers were implemented and tested using the first come firs
 
 The final scheduler implemented was high response ratio next. This was designed to take into acound job length and how long the job had been waiting. Using these pieces of information new priorities could be calculated. The new priority was crated by adding wait time to time remaining and then dividing the answer by the remaining time. The largest of these calculated priorities go tothe head of the queue. 
 
+\subsection{Class Diagrams}
+Each scheduler class implements the scheduler interface. The interface has six methods defined. These are, getNextJob, addNewJob, returnJob, removeJob, reset and getJobList.
+
+\subsection{First come first serve class}
+This class implements the scheduler interface and uses all but the returnJob functions. This just passes the head of the queue back to be processed.
+
+\subsection{Highest Priority Class}
+This class implements the scheduler interface and makes use of all methods. The highest priority job is placed at the front on the cue when adding and removing.
+
+\subsection{Shortest time first class}
+This class implements the scheduler interface and uses all methods. This class will do the same as highest priority class but with the shortest length going to the head of the queue rather than the highest priority.
+
+\subsection{Round robin}
+This class implements the scheduler interface and uses all methods. This class allocates a time portion to each process at the head of the queue, when that time is used up it goes to the back of the queue.
+
+\subsection{High response ration next}
+This class implements the scheduler interface and uses all methods. This class takes into account the length of the job and the time it has been waiting in the queue. It then calculates the new priority and puts the job with the highest priority at the head od the queue.
+
+\begin{figure}
+\centering
+\epsfig{file=design/class.png, height=5cm, width=9cm}
+\caption{A class diagram of schedulers and their implemented interface}
+\end{figure}
+
+
+
 \section{Results}
 Each scheduler was tested with five test jobs that were identical for each scheduelr.
 \subsection{First Come First Serve Results}
@@ -209,7 +235,9 @@ For full table of results see the testin.ods file in the testing folder.
 \section{Conclusions}
 After testing these five schedulers it has shown that each scheduler has an advantage in different areas. To decide what scheduler is best to use you must first work out what it is going to be used for. Although highest priority proved itself to work consistantly well it may not always be the scheduler of choice.
 
-This could be developed further by looking into a wider range of scheduling algorithms and using some realistic data.
+The results for first come first serve and shortest time first were as expectedhowever, the highest response ration next scheduler result was interesting. I was expecting the mean elapsed duration to be shorter for this scheduler than what is shown in the results.
+
+This could be developed further by looking into a wider range of scheduling algorithms and using some realistic data. With more testing it might be possible to combine or even develop a new and more effective scheduling algorithm.
 
 
 \section{Executive Sumarry}

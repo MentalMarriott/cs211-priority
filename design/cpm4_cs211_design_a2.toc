@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}Brief description of scheduler classes}{3}{section.1}
+\contentsline {section}{\numberline {2}First come first serve class}{3}{section.2}
+\contentsline {section}{\numberline {3}Highest Priority Class}{3}{section.3}
+\contentsline {section}{\numberline {4}Shortest time first class}{3}{section.4}
+\contentsline {section}{\numberline {5}Round robin}{3}{section.5}
+\contentsline {section}{\numberline {6}High response ration next}{3}{section.6}
+\contentsline {section}{\numberline {7}Classes}{3}{section.7}

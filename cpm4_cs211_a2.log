@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.11.17)  3 MAY 2013 04:09
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.11.17)  3 MAY 2013 05:18
 entering extended mode
  %&-line parsing enabled.
 **cpm4_cs211_a2.tex
@@ -237,52 +237,60 @@ Overfull \hbox (16.07646pt too wide) in paragraph at lines 126--127
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-] [2 <./testing/interface.png (PNG copy)>] <testing/contexts.png, id=15, 577.15
-625pt x 341.275pt>
+]
+<design/class.png, id=11, 779.91376pt x 552.0625pt>
+File: design/class.png Graphic file (type png)
+ <use design/class.png>
+Overfull \hbox (16.07518pt too wide) in paragraph at lines 163--164
+ [][] 
+ []
+
+[2 <./testing/interface.png (PNG copy)> <./design/class.png (PNG copy)>]
+<testing/contexts.png, id=16, 577.15625pt x 341.275pt>
 File: testing/contexts.png Graphic file (type png)
 
 <use testing/contexts.png>
-Overfull \hbox (16.08075pt too wide) in paragraph at lines 193--194
+Overfull \hbox (16.08075pt too wide) in paragraph at lines 219--220
  [][] 
  []
 
-<testing/meanjob.png, id=17, 577.15625pt x 331.2375pt>
+<testing/meanjob.png, id=18, 577.15625pt x 331.2375pt>
 File: testing/meanjob.png Graphic file (type png)
 
 <use testing/meanjob.png>
-Overfull \hbox (16.08075pt too wide) in paragraph at lines 199--200
+Overfull \hbox (16.08075pt too wide) in paragraph at lines 225--226
  [][] 
  []
 
-<testing/totalcpu.png, id=18, 577.15625pt x 331.2375pt>
+<testing/totalcpu.png, id=19, 577.15625pt x 331.2375pt>
 File: testing/totalcpu.png Graphic file (type png)
 
 <use testing/totalcpu.png>
-Overfull \hbox (16.08075pt too wide) in paragraph at lines 205--206
+Overfull \hbox (16.08075pt too wide) in paragraph at lines 231--232
  [][] 
  []
 
-[3 <./testing/contexts.png> <./testing/meanjob.png> <./testing/totalcpu.png>]
-[4
+[3 <./testing/contexts.png> <./testing/meanjob.png>] [4
 
-] (./cpm4_cs211_a2.aux) ) 
+ <./testing/totalcpu.png>] (./cpm4_cs211_a2.aux) ) 
 Here is how much of TeX's memory you used:
- 2203 strings out of 493848
- 25144 string characters out of 1152822
+ 2209 strings out of 493848
+ 25243 string characters out of 1152822
  82329 words of memory out of 3000000
- 5451 multiletter control sequences out of 15000+50000
+ 5455 multiletter control sequences out of 15000+50000
  45986 words of font info for 62 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  39i,10n,26p,666b,248s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/
-texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive
-/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-texlive/fonts/type1
-/urw/helvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhv
-r8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb>
-Output written on cpm4_cs211_a2.pdf (4 pages, 186170 bytes).
+{/usr/share/texmf-texlive/fon
+ts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/
+cm/cmbx9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/
+texmf-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-texlive/fon
+ts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/time
+s/utmb8a.pfb>
+Output written on cpm4_cs211_a2.pdf (4 pages, 280200 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
+ 49 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
