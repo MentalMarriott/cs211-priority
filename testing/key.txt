@@ -1,0 +1,15 @@
+This is a key to picture names:
+
+SCHEDULERS-
+fcfs = first come first serve
+hp = highest priority
+hrrn = high response ratio next
+rr = round robin
+st = shortest time
+
+TEST DOCUMENT-
+t = test.jobs
+t2 = test2.jobs
+t3 = test3.jobs
+t4 = test4.jobs
+t5 = test5.jobs

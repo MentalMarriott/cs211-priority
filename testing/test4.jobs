@@ -1,0 +1,5 @@
+# file for Scheduler simulator
+# process name:priority;start time;cycles on cpu, cycles blocked, cycles on cpu...
+CPU1:2;4;10,1
+CPU2:1;0;12
+TEST1:1;0;5,20,0
